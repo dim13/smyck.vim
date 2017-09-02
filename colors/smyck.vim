@@ -70,28 +70,3 @@ hi Underlined           cterm=none ctermbg=none ctermfg=magenta     gui=underlin
 hi Symbol               cterm=none ctermbg=none ctermfg=9           gui=none        guifg=#FAB1AB
 hi Method               cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#F7F7F7
 hi Interpolation        cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#2EB5C1
-
-" Erlang
-hi link erlangAtom            Keyword
-hi link erlangBitType         Keyword
-
-hi link rubyBeginend          Keyword
-hi link rubyClass             Keyword
-hi link rubyModule            Keyword
-hi link rubyKeyword           Keyword
-hi link rubyOperator          Method
-hi link rubyIdentifier        Keyword
-hi link rubyClassVariable     Symbol
-hi link rubyInstanceVariable  Constant
-hi link rubyGlobalVariable    Constant
-hi link rubyClassVariable     Method
-hi link rubyConstant          Constant
-hi link rubySymbol            Symbol
-hi link rubyFunction          Constant
-hi link rubyControl           Keyword
-hi link rubyConditional       Keyword
-hi link rubyInterpolation     Interpolation
-hi link rubyInterpolationDelimiter    Interpolation
-hi link rubyRailsMethod       Method
-
-
