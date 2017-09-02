@@ -12,7 +12,6 @@ if exists("syntax_on")
 endif
 
 set background=dark
-set linespace=3
 
 let g:colors_name = "smyck"
 
