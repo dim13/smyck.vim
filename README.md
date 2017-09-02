@@ -1,0 +1,1 @@
+# Smyck Color Scheme
