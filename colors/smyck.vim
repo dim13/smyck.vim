@@ -31,10 +31,10 @@ hi ModeMsg              cterm=bold ctermbg=none     ctermfg=10      gui=none
 hi Pmenu                cterm=none ctermbg=8        ctermfg=15      gui=none        guibg=#8F8F8F   guifg=#F7F7F7
 hi PmenuSel             cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#F7F7F7   guifg=#8F8F8F
 hi PmenuSbar            cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#F7F7F7   guifg=#8F8F8F
-hi SpellBad             cterm=none ctermbg=1        ctermfg=15      gui=none                        guifg=#F7F7F7
-hi SpellCap             cterm=none ctermbg=4        ctermfg=15      gui=none                        guifg=#F7F7F7
-hi SpellRare            cterm=none ctermbg=4        ctermfg=15      gui=none                        guifg=#F7F7F7
-hi SpellLocal           cterm=none ctermbg=4        ctermfg=15      gui=none                        guifg=#F7F7F7
+hi SpellBad             cterm=none ctermbg=1        ctermfg=15      gui=undercurl                   guifg=#F7F7F7
+hi SpellCap             cterm=none ctermbg=4        ctermfg=15      gui=undercurl                   guifg=#F7F7F7
+hi SpellRare            cterm=none ctermbg=4        ctermfg=15      gui=undercurl                   guifg=#F7F7F7
+hi SpellLocal           cterm=none ctermbg=4        ctermfg=15      gui=undercurl                   guifg=#F7F7F7
 hi Visual               cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#F7F7F7   guifg=#8F8F8F
 hi Directory            cterm=none ctermbg=none     ctermfg=4       gui=none        guibg=#282828   guifg=#88CCE7
 hi SpecialKey           cterm=none ctermbg=none     ctermfg=8       gui=none                        guifg=#8F8F8F
@@ -69,11 +69,3 @@ hi Underlined           cterm=none ctermbg=none ctermfg=5           gui=underlin
 hi Symbol               cterm=none ctermbg=none ctermfg=9           gui=none        guifg=#FAB1AB
 hi Method               cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#F7F7F7
 hi Interpolation        cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#2EB5C1
-
-" ----------------------------------------------------------------------------
-" Spell Highlighting
-" ----------------------------------------------------------------------------
-hi SpellBad		gui=undercurl
-hi SpellCap		gui=undercurl
-hi SpellRare		gui=undercurl
-hi SpellLocal		gui=undercurl
